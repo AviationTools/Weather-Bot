@@ -1,0 +1,10 @@
+version: "3"
+services:
+  weather-bot:
+    build: .
+    image: weather-bot:latest
+    container_name: weather-bot
+    restart: always
+    environment:
+      - "DISCORD_TOKEN=<token>"
+      - "DISCORD_GUILD=<guild>"
