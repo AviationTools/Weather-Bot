@@ -2,7 +2,7 @@ version: "3"
 services:
   weather-bot:
     build: .
-    image: weather-bot:latest
+    image: ghcr.io/aviationtools/weather-bot:latest
     container_name: weather-bot
     restart: always
     environment:
