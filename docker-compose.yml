@@ -7,4 +7,3 @@ services:
     restart: always
     environment:
       - "DISCORD_TOKEN=<token>"
-      - "DISCORD_GUILD=<guild>"
